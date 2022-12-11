@@ -1,0 +1,37 @@
+- Popular GIT and linux Commands:
+ls                                                                     # lists files in that directory
+mkdir file_name                                              # creates a new directory
+cd                                                                    # change directory
+"git init"                                                           # Command enables GIT to keep track of a local Folder in your local disc space
+git add .                                                           # adds/stage all the folders in the directory to the local repo
+git rm --cached file_name                               # remove/unstage a file from the git tracking repo
+git commit -m "Commit specific comments for self reference"
+git revert                                                          # revert git changes from an existing commit id.
+git push
+git push origin master                                     # to push changes directly to the master branch
+git pull endpoint_url
+git branch                                                        # displays a list of available all the branches
+git branch branch_name                                 # create a branch with branch_name
+git branch -D branch_name                            # delete a branch named branch_name
+git clone web_address
+git remote add origin endpoint_url                 #connects local repo to the master remote repo
+git checkout branch_name                              # points the pointer Head to branch_name now
+git log                                                              # see git history
+touch file_name.txt                                          #create a new text file
+git status                                                          # current status
+git revert commit_id
+cat .git/HEAD                                                   # to check where is the head currently pointing to
+git diff commit_id_version_x  commit_id_version_y              # highlights the changes between two commits 
+git merge branch_name                                  # remember to fire this command from the master branch which asks to pull changes from the sub-branch into itself.
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Pawan-Kumar12/medium-level-project-HandsOn.git
+git push -u origin main
+
+or push an existing repository from the command line
+git remote add origin https://github.com/Pawan-Kumar12/medium-level-project-HandsOn.git
+git branch -M main
+git push -u origin main

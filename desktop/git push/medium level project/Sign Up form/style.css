@@ -1,0 +1,102 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #EAEAEA;
+}
+
+.cont{
+    display: flex;
+}
+.cont1{
+    background-image: url(bg1.jpg);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 40vw;
+    height: 52vw;
+}
+
+.logo {
+    background-color: rgba(201, 192, 192, 0.7);
+    position: relative;
+    top: 20vh;
+    gap: 1vw;
+    padding: 5px 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+h1{
+    font-family: 'Skranji', cursive;
+    color: #379237;
+}
+
+input{
+    border-radius: 5px;
+    border-color: beige;
+}
+
+.cont2{
+    margin-left: 40px;
+    padding-top: 5%;
+    width: 60%;
+    height: 100%;
+    display: block;
+}
+
+#form_container{
+    margin-top: 40px;
+    background-color: white;
+    margin-left: -40px;
+    padding: 5px 0 20px 40px;
+    box-shadow: 4px 3px 8px 1px #969696;
+  	-webkit-box-shadow: 4px 3px 8px 1px #969696;
+}
+
+#form_container section{
+display: flex;
+flex-flow: row wrap;
+row-gap: 20px;  
+column-gap: 110px;
+padding-bottom: 20px;
+flex-direction: row;
+justify-content: flex-start
+}
+
+.last_cont{
+    margin-top: 20px;
+}
+
+button{
+    background-color: #596D48;
+    font-weight: 700;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    border-color:#596D48 ;
+
+}
+
+h5{
+    margin: 0;
+}
+
+.errorPrint{
+    display: flex;
+    flex-direction: column;
+}
+small{
+    padding-top: 5px;
+    color:red;
+}
+.validate{
+    padding-top: 10px;
+    border: 2px solid green;
+} 
+.failed{
+    padding-top: 10px;
+    border: 1px solid red;
+}

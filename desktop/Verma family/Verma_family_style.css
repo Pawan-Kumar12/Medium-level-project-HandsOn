@@ -1,0 +1,62 @@
+
+html{
+	box-sizing: border-box;
+  }
+
+*, *:before, *:after{
+		box-sizing: inherit;
+	}
+
+header{
+        /* background-color: #F2E9E9; */
+        background-color:#CBB26A;
+        height: 80px;
+      }  
+      
+.logo{
+         float: left;
+          width: 105px;
+        position: sticky;
+        top: 20px;
+      }
+      
+.slogan{
+        /* text-align: center; */
+        position: relative;
+        left: 80px;
+        top: 15px;
+        color: black;  
+      }
+ body{
+        background: url(background.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family:sans-serif, monospace, serif;
+      
+      }
+      /* coding for menu starts */
+      .navbar {
+        display: flex;
+        flex-wrap: wrap;
+        /* width: max-content; */
+        gap: 1rem;
+        margin: 4em 0;
+        padding: 0.25em 1em;
+        position: relative;
+        bottom: 60px;
+        left: 70%;
+      }
+      .navbar li {
+        display: block; 
+      }
+      .navbar a {
+        text-decoration: bold;
+        color: black;
+        font-weight: bold;
+      }
+      .navbar a:hover {
+        text-decoration: underline;
+        text-decoration-color: rgb(209, 142, 16);
+        text-decoration-thickness: 2px;
+        text-underline-offset: 3px;
+      }
