@@ -18,7 +18,7 @@ document.getElementById ("submit").addEventListener ("click", ()=>
 
  const validateUsername = ((username)=>{
     console.log(username.length);
-    if (username.length > 4){
+    if (username.length > 3){
         document.getElementById('username').classList = "validate" // in case correct input is inputted
         document.getElementById('username').classList.replace("failed", "validate")  //submit clicked after correcting error
         document.getElementById('username_error').innerText = " "
@@ -39,7 +39,7 @@ const validateEmail = ((email)=>{
     }
     else{
         document.getElementById('email').classList ="failed"
-        document.getElementById('email_error').innerText = 'email is invalid'
+        document.getElementById('email_error').innerText = 'E-mail is invalid'
     }
     
 });
@@ -54,7 +54,7 @@ const validatePassword = ((password)=>{
     }
     else{
         document.getElementById('pass').classList ="failed"
-       document.getElementById('Password_error').innerText = 'password must be a minimum of 6 characters including number, Upper, Lower And one special character'
+       document.getElementById('Password_error').innerText = 'Password must be a minimum of 6 characters including number, UpperCase, LowerCase And special character'
     }
     
 });
