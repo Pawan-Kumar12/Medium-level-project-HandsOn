@@ -1,0 +1,1143 @@
+
+.christmas::before{
+    background: url(insta/bg.jpg) no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+.christmas{
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 62px;
+
+}
+audio{
+    opacity: 0.1;
+}
+
+.frnds{
+    position: absolute;
+    margin: 40% 47%;
+    top: 0;
+    left: 0;
+    
+}
+
+#frnd1{
+    animation-name: anima1;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+}
+@keyframes anima1{
+    0%{
+        position: absolute;
+        margin: 40% 47%;
+    }
+    
+    10%{
+        position: absolute;
+        margin: 35% 45%;
+    }
+    20%{
+        position: absolute;
+        margin: 30% 41%;
+    }
+    30%{
+        position: absolute;
+        margin: 25% 37%;
+    }
+    40%{
+        position: absolute;
+        margin: 20% 33%;
+    }
+    50%{
+        position: absolute;
+        margin: 15% 29%;
+    }
+    60%{
+        position: absolute;
+        margin: 20% 25%;
+    }
+    70%{
+        position: absolute;
+        margin: 25% 21%;
+    }
+    80%{
+        position: absolute;
+        margin: 30% 17%;
+    }
+    90%{
+        position: absolute;
+        margin: 35% 13%;
+    }
+    100%{
+        position: absolute;
+        margin: 40% 9%;
+    }
+}
+
+
+#frnd2{
+    animation-name: anima2;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+}
+@keyframes anima2{
+    0%{
+        position: absolute;
+        margin: 40% 47%;
+    }
+    
+    10%{
+        position: absolute;
+        margin: 35% 51%;
+    }
+    20%{
+        position: absolute;
+        margin: 30% 55%;
+    }
+    30%{
+        position: absolute;
+        margin: 25% 59%;
+    }
+    40%{
+        position: absolute;
+        margin: 20% 63%;
+    }
+    50%{
+        position: absolute;
+        margin: 15% 67%;
+    }
+    60%{
+        position: absolute;
+        margin: 20% 71%;
+    }
+    70%{
+        position: absolute;
+        margin: 25% 75%;
+    }
+    80%{
+        position: absolute;
+        margin: 30% 79%;
+    }
+    90%{
+        position: absolute;
+        margin: 35% 83%;
+    }
+    100%{
+        position: absolute;
+        margin: 40% 87%;
+    }
+}
+
+#frnd3{
+    animation-name: anima3;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-delay: 3s;
+}
+@keyframes anima3{
+    0%{
+        position: absolute;
+        margin: 40% 47%;
+    }
+    
+    10%{
+        position: absolute;
+        margin: 34% 45%;
+    }
+    20%{
+        position: absolute;
+        margin: 29% 41%;
+    }
+    30%{
+        position: absolute;
+        margin: 24% 37%;
+    }
+    40%{
+        position: absolute;
+        margin: 19% 33%;
+    }
+    50%{
+        position: absolute;
+        margin: 14% 29%;
+    }
+    60%{
+        position: absolute;
+        margin: 19% 25%;
+    }
+    70%{
+        position: absolute;
+        margin: 24% 21%;
+    }
+    80%{
+        position: absolute;
+        margin: 29% 17%;
+    }
+    90%{
+        position: absolute;
+        margin: 35% 13%;
+    }
+    100%{
+ 
+        position: absolute;
+        margin: 40% 9%;
+    }
+}
+
+#frnd4{
+    animation-name: anima4;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-delay: 3s;
+}
+@keyframes anima4{
+    0%{
+        position: absolute;
+        margin: 40% 47%;
+    }
+    
+    10%{
+        position: absolute;
+        margin: 34% 50%;
+    }
+    20%{
+        position: absolute;
+        margin: 29% 54%;
+    }
+    30%{
+        position: absolute;
+        margin: 24% 58%;
+    }
+    40%{
+        position: absolute;
+        margin: 19% 62%;
+    }
+    50%{
+        position: absolute;
+        margin: 14% 66%;
+    }
+    60%{
+        position: absolute;
+        margin: 19% 70%;
+    }
+    70%{
+        position: absolute;
+        margin: 24% 74%;
+    }
+    80%{
+        position: absolute;
+        margin: 29% 78%;
+    }
+    90%{
+        position: absolute;
+        margin: 34% 82%;
+    }
+    100%{
+ 
+        position: absolute;
+        margin: 40% 86%;
+    }
+}
+
+#frnd5{
+    animation-name: anima5;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-delay: 6s;
+}
+@keyframes anima5{
+    0%{
+        position: absolute;
+        margin: 40% 47%;
+    }
+    
+    10%{
+        position: absolute;
+        margin: 33% 45%;
+    }
+    20%{
+        position: absolute;
+        margin: 28% 41%;
+    }
+    30%{
+        position: absolute;
+        margin: 23% 37%;
+    }
+    40%{
+        position: absolute;
+        margin: 18% 33%;
+    }
+    50%{
+        position: absolute;
+        margin: 13% 29%;
+    }
+    60%{
+        position: absolute;
+        margin: 18% 25%;
+    }
+    70%{
+        position: absolute;
+        margin: 23% 21%;
+    }
+    80%{
+        position: absolute;
+        margin: 28% 17%;
+    }
+    90%{
+        position: absolute;
+        margin: 33% 13%;
+    }
+    100%{
+ 
+        position: absolute;
+        margin: 40% 9%;
+    }
+}
+
+#frnd6{
+    animation-name: anima6;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-delay: 6s;
+}
+@keyframes anima6{
+    0%{
+        position: absolute;
+        margin: 40% 47%;
+    }
+    
+    10%{
+        position: absolute;
+        margin: 33% 49%;
+    }
+    20%{
+        position: absolute;
+        margin: 28% 53%;
+    }
+    30%{
+        position: absolute;
+        margin: 23% 57%;
+    }
+    40%{
+        position: absolute;
+        margin: 18% 61%;
+    }
+    50%{
+        position: absolute;
+        margin: 13% 65%;
+    }
+    60%{
+        position: absolute;
+        margin: 18% 69%;
+    }
+    70%{
+        position: absolute;
+        margin: 23% 73%;
+    }
+    80%{
+        position: absolute;
+        margin: 28% 77%;
+    }
+    90%{
+        position: absolute;
+        margin: 33% 81%;
+    }
+    100%{
+ 
+        position: absolute;
+        margin: 40% 85%;
+    }
+}
+
+
+#frnd7{
+    animation-name: anima7;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-delay: 9s;
+}
+@keyframes anima7{
+    0%{
+        position: absolute;
+        margin: 40% 47%;
+    }
+    
+    10%{
+        position: absolute;
+        margin: 32% 45%;
+    }
+    20%{
+        position: absolute;
+        margin: 27% 41%;
+    }
+    30%{
+        position: absolute;
+        margin: 22% 37%;
+    }
+    40%{
+        position: absolute;
+        margin: 17% 33%;
+    }
+    50%{
+        position: absolute;
+        margin: 12% 29%;
+    }
+    60%{
+        position: absolute;
+        margin: 17% 25%;
+    }
+    70%{
+        position: absolute;
+        margin: 22% 21%;
+    }
+    80%{
+        position: absolute;
+        margin: 27% 17%;
+    }
+    90%{
+        position: absolute;
+        margin: 32% 13%;
+    }
+    100%{
+ 
+        position: absolute;
+        margin: 40% 9%;
+    }
+}
+
+#frnd8{
+    animation-name: anima8;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-delay: 9s;
+}
+@keyframes anima8{
+    0%{
+        position: absolute;
+        margin: 40% 47%;
+    }
+    
+    10%{
+        position: absolute;
+        margin: 32% 48%;
+    }
+    20%{
+        position: absolute;
+        margin: 27% 52%;
+    }
+    30%{
+        position: absolute;
+        margin: 22% 56%;
+    }
+    40%{
+        position: absolute;
+        margin: 17% 60%;
+    }
+    50%{
+        position: absolute;
+        margin: 12% 64%;
+    }
+    60%{
+        position: absolute;
+        margin: 17% 68%;
+    }
+    70%{
+        position: absolute;
+        margin: 22% 72%;
+    }
+    80%{
+        position: absolute;
+        margin: 27% 76%;
+    }
+    90%{
+        position: absolute;
+        margin: 32% 80%;
+    }
+    100%{
+ 
+        position: absolute;
+        margin: 40% 84%;
+    }
+}
+
+
+
+#frnd9{
+    animation-name: anima9;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-delay: 12s;
+}
+@keyframes anima9{
+    0%{
+        position: absolute;
+        margin: 40% 47%;
+    }
+    
+    10%{
+        position: absolute;
+        margin: 31% 45%;
+    }
+    20%{
+        position: absolute;
+        margin: 26% 41%;
+    }
+    30%{
+        position: absolute;
+        margin: 21% 37%;
+    }
+    40%{
+        position: absolute;
+        margin: 16% 33%;
+    }
+    50%{
+        position: absolute;
+        margin: 13% 29%;
+    }
+    60%{
+        position: absolute;
+        margin: 16% 25%;
+    }
+    70%{
+        position: absolute;
+        margin: 21% 21%;
+    }
+    80%{
+        position: absolute;
+        margin: 26% 17%;
+    }
+    90%{
+        position: absolute;
+        margin: 31% 13%;
+    }
+    100%{
+ 
+        position: absolute;
+        margin: 40% 9%;
+    }
+}
+
+#frnd10{
+    animation-name: anima10;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-delay: 12s;
+}
+@keyframes anima10{
+    0%{
+        position: absolute;
+        margin: 40% 47%;
+    }
+    
+    10%{
+        position: absolute;
+        margin: 31% 49%;
+    }
+    20%{
+        position: absolute;
+        margin: 26% 51%;
+    }
+    30%{
+        position: absolute;
+        margin: 21% 55%;
+    }
+    40%{
+        position: absolute;
+        margin: 16% 59%;
+    }
+    50%{
+        position: absolute;
+        margin: 13% 63%;
+    }
+    60%{
+        position: absolute;
+        margin: 16% 67%;
+    }
+    70%{
+        position: absolute;
+        margin: 21% 71%;
+    }
+    80%{
+        position: absolute;
+        margin: 26% 75%;
+    }
+    90%{
+        position: absolute;
+        margin: 31% 79%;
+    }
+    100%{
+ 
+        position: absolute;
+        margin: 40% 83%;
+    }
+}
+
+
+#frnd11{
+    animation-name: anima11;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-delay: 15s;
+}
+@keyframes anima11{
+    0%{
+        position: absolute;
+        margin: 40% 47%;
+    }
+    
+    10%{
+        position: absolute;
+        margin: 30% 45%;
+    }
+    20%{
+        position: absolute;
+        margin: 25% 41%;
+    }
+    30%{
+        position: absolute;
+        margin: 20% 37%;
+    }
+    40%{
+        position: absolute;
+        margin: 15% 33%;
+    }
+    50%{
+        position: absolute;
+        margin: 10% 29%;
+    }
+    60%{
+        position: absolute;
+        margin: 15% 25%;
+    }
+    70%{
+        position: absolute;
+        margin: 20% 21%;
+    }
+    80%{
+        position: absolute;
+        margin: 25% 17%;
+    }
+    90%{
+        position: absolute;
+        margin: 30% 13%;
+    }
+    100%{
+ 
+        position: absolute;
+        margin: 40% 9%;
+    }
+}
+
+#frnd12{
+    animation-name: anima12;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-delay: 15s;
+}
+@keyframes anima12{
+    0%{
+        position: absolute;
+        margin: 40% 47%;
+    }
+    
+    10%{
+        position: absolute;
+        margin: 30% 49%;
+    }
+    20%{
+        position: absolute;
+        margin: 25% 52%;
+    }
+    30%{
+        position: absolute;
+        margin: 20% 54%;
+    }
+    40%{
+        position: absolute;
+        margin: 15% 58%;
+    }
+    50%{
+        position: absolute;
+        margin: 10% 62%;
+    }
+    60%{
+        position: absolute;
+        margin: 15% 66%;
+    }
+    70%{
+        position: absolute;
+        margin: 20% 70%;
+    }
+    80%{
+        position: absolute;
+        margin: 25% 74%;
+    }
+    90%{
+        position: absolute;
+        margin: 30% 78%;
+    }
+    100%{
+ 
+        position: absolute;
+        margin: 40% 82%;
+    }
+}
+
+
+#frnd13{
+    animation-name: anima13;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-delay: 18s;
+}
+@keyframes anima13{
+    0%{
+        position: absolute;
+        margin: 40% 47%;
+    }
+    
+    10%{
+        position: absolute;
+        margin: 29% 45%;
+    }
+    20%{
+        position: absolute;
+        margin: 24% 41%;
+    }
+    30%{
+        position: absolute;
+        margin: 19% 37%;
+    }
+    40%{
+        position: absolute;
+        margin: 14% 33%;
+    }
+    50%{
+        position: absolute;
+        margin: 8% 29%;
+    }
+    60%{
+        position: absolute;
+        margin: 14% 25%;
+    }
+    70%{
+        position: absolute;
+        margin: 19% 21%;
+    }
+    80%{
+        position: absolute;
+        margin: 24% 17%;
+    }
+    90%{
+        position: absolute;
+        margin: 29% 13%;
+    }
+    100%{
+ 
+        position: absolute;
+        margin: 40% 9%;
+    }
+}
+
+#frnd14{
+    animation-name: anima14;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-delay: 18s;
+}
+@keyframes anima14{
+    0%{
+        position: absolute;
+        margin: 40% 47%;
+    }
+    
+    10%{
+        position: absolute;
+        margin: 29% 48%;
+    }
+    20%{
+        position: absolute;
+        margin: 24% 50%;
+    }
+    30%{
+        position: absolute;
+        margin: 19% 53%;
+    }
+    40%{
+        position: absolute;
+        margin: 14% 57%;
+    }
+    50%{
+        position: absolute;
+        margin: 8% 61%;
+    }
+    60%{
+        position: absolute;
+        margin: 14% 65%;
+    }
+    70%{
+        position: absolute;
+        margin: 19% 69%;
+    }
+    80%{
+        position: absolute;
+        margin: 24% 73%;
+    }
+    90%{
+        position: absolute;
+        margin: 29% 77%;
+    }
+    100%{
+ 
+        position: absolute;
+        margin: 40% 81%;
+    }
+}
+#frnd15{
+    animation-name: anima15;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-delay: 21s;
+}
+@keyframes anima15{
+    0%{
+        position: absolute;
+        margin: 40% 47%;
+    }
+    
+    10%{
+        position: absolute;
+        margin: 35% 47%;
+    }
+    20%{
+        position: absolute;
+        margin: 32% 47%;
+    }
+    30%{
+        position: absolute;
+        margin: 28% 47%;
+    }
+    40%{
+        position: absolute;
+        margin: 25% 47%;
+    }
+    50%{
+        position: absolute;
+        margin: 22% 47%;
+    }
+    60%{
+        position: absolute;
+        margin: 16% 27%;
+    }
+    70%{
+        position: absolute;
+        margin: 13% 17%;
+    }
+    80%{
+        position: absolute;
+        margin: 9% 17%;
+    }
+    90%{
+        position: absolute;
+        margin: 7% 17%;
+    }
+    100%{
+ 
+        position: absolute;
+        margin: 0% 17%;
+    }
+}
+
+
+
+#frnd1 img{
+    animation-name: animaimg1;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+}
+@keyframes animaimg1{
+    100%{
+        transform: rotateY(180deg);
+        width: 350px;
+        height: 350px;
+        border-radius: 10px;
+    }
+
+}
+#frnd2 img{
+    animation-name: animaimg2;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+}
+@keyframes animaimg2{
+    100%{
+        transform: rotateY(180deg);
+        width: 350px;
+        height: 350px;
+        border-radius: 10px;
+    }
+
+}
+#frnd3 img{
+    animation-name: animaimg3;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-delay: 3s;
+}
+@keyframes animaimg3{
+    100%{
+        transform: rotateY(180deg);
+        width: 350px;
+        height: 350px;
+        border-radius: 10px;
+    }
+
+}
+#frnd4 img{
+    animation-name: animaimg4;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-delay: 3s;
+}
+@keyframes animaimg4{
+    100%{
+        transform: rotateY(180deg);
+        width: 350px;
+        height: 350px;
+        border-radius: 10px;
+    }
+
+}
+#frnd5 img{
+    animation-name: animaimg5;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-delay: 6s;
+}
+@keyframes animaimg5{
+    100%{
+        transform: rotateY(180deg);
+        width: 350px;
+        height: 350px;
+        border-radius: 10px;
+    }
+
+}
+#frnd6 img{
+    animation-name: animaimg6;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-delay: 6s;
+}
+@keyframes animaimg6{
+    100%{
+        transform: rotateY(180deg);
+        width: 350px;
+        height: 350px;
+        border-radius: 10px;
+    }
+
+}
+#frnd7 img{
+    animation-name: animaimg7;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-delay: 9s;
+}
+@keyframes animaimg7{
+    100%{
+        transform: rotateY(180deg);
+        width: 350px;
+        height: 350px;
+        border-radius: 10px;
+    }
+
+}
+#frnd8 img{
+    animation-name: animaimg8;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-delay: 9s;
+}
+@keyframes animaimg8{
+    100%{
+        transform: rotateY(180deg);
+        width: 350px;
+        height: 350px;
+        border-radius: 10px;
+    }
+
+}
+#frnd9 img{
+    animation-name: animaimg9;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-delay: 12s;
+}
+@keyframes animaimg9{
+    100%{
+        transform: rotateY(180deg);
+        width: 350px;
+        height: 350px;
+        border-radius: 10px;
+    }
+
+}
+#frnd10 img{
+    animation-name: animaimg10;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-delay: 12s;
+}
+@keyframes animaimg10{
+    100%{
+        transform: rotateY(180deg);
+        width: 350px;
+        height: 350px;
+        border-radius: 10px;
+    }
+
+}
+#frnd11 img{
+    animation-name: animaimg11;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-delay: 15s;
+}
+@keyframes animaimg11{
+    100%{
+        transform: rotateY(180deg);
+        width: 350px;
+        height: 350px;
+        border-radius: 10px;
+    }
+
+}
+#frnd12 img{
+    animation-name: animaimg12;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-delay: 15s;
+}
+@keyframes animaimg12{
+    100%{
+        transform: rotateY(180deg);
+        width: 350px;
+        height: 350px;
+        border-radius: 10px;
+    }
+
+}
+#frnd13 img{
+    animation-name: animaimg13;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-delay: 18s;
+}
+@keyframes animaimg13{
+    100%{
+        transform: rotateY(180deg);
+        width: 350px;
+        height: 350px;
+        border-radius: 10px;
+    }
+
+}
+#frnd14 img{
+    animation-name: animaimg14;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-delay: 18s;
+}
+@keyframes animaimg14{
+    100%{
+        transform: rotateY(180deg);
+        width: 350px;
+        height: 350px;
+        border-radius: 10px;
+    }
+
+}
+
+#frnd15 img{
+    animation-name: animaimg15;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-delay: 21s;
+}
+@keyframes animaimg15{
+    100%{
+        transform: rotateY(180deg);
+        width: 850px;
+        height: 850px;
+        border-radius: 10px;
+    }
+
+}
+/* #christmasfinal{
+    display: none;
+} */
+
+#christmasfinal img{
+    height: 0vh;
+    width: 0vw;
+    animation-name: final;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-delay: 24s;
+}
+@keyframes final{
+    from {
+       height: 0vh;
+        width: 0vw;
+    }
+
+    to {
+       width: 100vw;
+       height: 100vh;
+    }
+}
