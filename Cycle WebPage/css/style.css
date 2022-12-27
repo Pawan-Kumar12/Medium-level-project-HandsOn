@@ -105,21 +105,19 @@ html{
 
 /* Services Section */
 #services{
-    margin: 0 34px;
     margin-bottom: -12px !important;
 
 }
 #services .box{ 
-    border-radius: 10px;
     background: #f2f2f2;
-    margin-bottom: 20px;
     width: 30vw;
+    height: 294px;
 }
 
-#services .box img{ 
-   height: 294px;
-   margin: auto;
-   display: block;
+#services .product .box img{ 
+   height: 100%;
+   width: 100%;
+   border-radius: 10px;
 }
 
 #services .box p{
@@ -129,9 +127,15 @@ html{
 
 } 
 
-.product, .Cycleservice{
+
+.product {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 40px;
 }
+
+
 
 /* Clients Section */
 
@@ -144,10 +148,6 @@ html{
 
 #brands img{
     width: 99vw;
-}
-
-#Brands h1{
-    padding-top: 0 !important;
 }
 
 
@@ -165,15 +165,7 @@ html{
     padding-bottom: 34px;
 
 }
-/* #Events{
-    margin-top: -4px;
-} */
-/* #Events-box{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 34px;
-} */
+
 #Events-box input, 
 #Events-box textarea{
     width: 100%;
